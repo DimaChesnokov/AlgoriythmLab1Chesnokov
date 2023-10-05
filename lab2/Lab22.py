@@ -1,5 +1,6 @@
 import library
 
 if __name__ == "__main__":
-    print("Женя худей")
-    
+   Warior1 = library.Warrior()
+   Warior2 = library.Warrior()
+   print(Warior1.health) 
