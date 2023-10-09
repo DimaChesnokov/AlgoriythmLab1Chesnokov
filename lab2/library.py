@@ -1,3 +1,4 @@
+#Класс воин
 class Warrior:
     # конструктор класса, задаем начальные значения здоровья и урона
     def __init__(self):
@@ -8,5 +9,5 @@ class Warrior:
 # метод атаки, уменьшает здоровье противника на значение урона текущего воина
     def attack(self, enemy):
         enemy.health -= self.damage #enemy.health = enemy.health - self.damage 
-        print(f"Warrior attacked! Enemy health: {enemy.health}")
+        print(f"Воин атаковал! Здоровье: {enemy.health}")
     
