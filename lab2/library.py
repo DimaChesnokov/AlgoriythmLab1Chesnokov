@@ -7,6 +7,7 @@ class Warrior:
         
 
 # метод атаки, уменьшает здоровье противника на значение урона текущего воина
+# 
     def attack(self, enemy):
         enemy.health -= self.damage #enemy.health = enemy.health - self.damage 
         print(f"Воин атаковал! Здоровье: {enemy.health}")
