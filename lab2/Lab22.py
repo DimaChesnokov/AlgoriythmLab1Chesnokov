@@ -5,7 +5,7 @@ if __name__ == "__main__":
    Warrior1 = library.Warrior()
    Warrior2 = library.Warrior()
    
-   #print(Warior1.health ) 
+
 
    #цикл идёт: Если здоровье одного из игроков достигнет нуля или меньше, то игра закончится.
    while Warrior1.health > 0 and Warrior2.health > 0:
