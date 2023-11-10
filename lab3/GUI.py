@@ -37,14 +37,14 @@ class Ui(QtWidgets.QMainWindow):
         
        
         rowCount = self.tableWidget.rowCount()
-        while(a<=b):
+        while(a<b):
     
             result=k * pow(a, 2) + m * a + l
             self.tableWidget.insertRow(rowCount)
            
-            self.tableWidget.setItem(rowCount,0,QTableWidgetItem(str(b)))
+            self.tableWidget.setItem(rowCount,0,QTableWidgetItem(str(a)))
             self.tableWidget.setItem(rowCount,1,QTableWidgetItem(str(result)))
-            b = b - h
+            a = a + h
         
     #Метод для очистки таблицы
     # def Clear_Table(self):

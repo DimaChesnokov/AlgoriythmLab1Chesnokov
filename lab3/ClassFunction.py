@@ -16,16 +16,16 @@ class QuadraticFunction:
 
 if __name__ == "__main__":
      # Заданные значения
-    k = int(input("Введите значение K: "))
-    m = int(input("Введите значение m: "))
-    l = int(input("Введите значение l: "))
+    k =1 #int(input("Введите значение K: "))
+    m =1 #int(input("Введите значение m: "))
+    l =0 #int(input("Введите значение l: "))
     print("параметр 'a'  должен быть больше параметра 'b'")
-    a = int(input("Введите значение a: ")) #пример с задания: a = -1; b = 1 h = 0,05
-    b = int(input("Введите значение b: "))
+    a = -1 #int(input("Введите значение a: ")) #пример с задания: a = -1; b = 1 h = 0,05
+    b = 1 #int(input("Введите значение b: "))
     if a > b: 
         print("параметр 'a' не должен быть больше параметра 'b'")
         exit()
-    h = float(input("Введите значение h: "))
+    h = 0.05 #float(input("Введите значение h: "))
 
     # Создаем объект класса QuadraticFunction
     quadratic_function = QuadraticFunction(k, m, l)
